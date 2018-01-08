@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="js/app.js"></script>
+</head>
+<body>
+	<div>
+ 
+		<input type="number" id="memoire"></input>
+		<input type="number" id="principal"></input>
+ 
+		<table id="pad_principal">
+			<tr>
+				<td id="sept" onclick="sept()">7</td>
+				<td id="huit" onclick="huit()">8</td>
+				<td id="neuf" onclick="neuf()">9</td>
+			</tr>
+			<tr>
+				<td id="quatre" onclick="quatre()">4</td>
+				<td id="cinq" onclick="cinq()">5</td>
+				<td id="six" onclick="six()">6</td>
+			</tr>
+			<tr>
+				<td id="un" onclick="un()">1</td>
+				<td id="deux" onclick="deux()">2</td>
+				<td id="trois" onclick="trois()">3</td>
+			</tr>
+			<tr>
+				<td id="zero" onclick="zero()">0</td>
+				<td id="virgule" onclick="virgule()"><strong>,</strong></td>
+				<td id="egal" onclick="egal()">=</td>
+			</tr>
+		</table>
+ 
+		<table id="pad_signes">
+			<tr>
+				<td id="clear" onclick="clear()">C</td>
+			</tr>
+			<tr>
+				<td id="plus" onclick="plus()">+</td>
+				<td id="moins" onclick="moins()">-</td>
+			</tr>
+			<tr>
+				<td id="fois" onclick="fois()">x</td>
+				<td id="divise" onclick="divise()">÷</td>
+		</table>
+ 
+	</div>
+
+</body>
+</html>
